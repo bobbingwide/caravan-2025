@@ -2,18 +2,26 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:post-title /-->
+<div class="wp-block-group"><!-- wp:sb/parent-block {"noparent":"."} /-->
 
-<!-- wp:oiksb/sb-field-block {"postType":"oik-recording","fieldName":"_oikt_year","showLabel":false} /--></div>
+<!-- wp:post-title {"style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} /-->
+
+<!-- wp:oiksb/sb-field-block {"postType":"oik-recording","fieldName":"_oikt_year","showLabel":false,"style":{"typography":{"lineHeight":"1.5"},"spacing":{"padding":{"top":"6px","bottom":"0"}}}} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"35%"} -->
-<div class="wp-block-column" style="flex-basis:35%"><!-- wp:post-featured-image {"style":{"shadow":"var:preset|shadow|sharp"}} /--></div>
+<div class="wp-block-column" style="flex-basis:35%"><!-- wp:post-featured-image {"style":{"shadow":"var:preset|shadow|sharp"}} /-->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:post-terms {"term":"format"} /-->
+
+<!-- wp:post-terms {"term":"recording-type"} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"65%"} -->
-<div class="wp-block-column" style="flex-basis:65%"><!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"oik-track","order":"asc","orderBy":"meta_value_num","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"include_posts":[],"meta_query":{"queries":[{"id":"e8f5c5bb-80af-48f4-845e-242cb8a093df","meta_key":"_oikt_track","meta_value":"","meta_compare":"\u003e="},{"id":"72dc05fc-9065-4684-b189-6419bc8cd14b","meta_key":"_oikt_recording","meta_value":".","meta_compare":"IN"}],"relation":"AND"},"post_parent":"caravan-2025//single-oik-recording"},"namespace":"advanced-query-loop"} -->
+<div class="wp-block-column" style="flex-basis:65%"><!-- wp:query {"queryId":1,"query":{"perPage":20,"pages":0,"offset":0,"postType":"oik-track","order":"asc","orderBy":"meta_value_num","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"include_posts":[],"meta_query":{"queries":[{"id":"e8f5c5bb-80af-48f4-845e-242cb8a093df","meta_key":"_oikt_track","meta_value":"","meta_compare":"\u003e="},{"id":"72dc05fc-9065-4684-b189-6419bc8cd14b","meta_key":"_oikt_recording","meta_value":".","meta_compare":"IN"}],"relation":"AND"},"post_parent":"caravan-2025//single-oik-recording"},"namespace":"advanced-query-loop"} -->
 <div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}},"fontSize":"medium"} -->
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:oiksb/sb-field-block {"postType":"oik-track","fieldName":"_oikt_track","showLabel":false,"fontSize":"medium"} /-->
