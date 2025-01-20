@@ -1,6 +1,10 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide"><!-- wp:site-logo /-->
+<div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group"><!-- wp:site-logo /-->
+
+<!-- wp:search {"label":"Search","showLabel":false,"width":100,"widthUnit":"%","buttonText":"Search","buttonUseIcon":true,"align":"center","style":{"border":{"radius":"4px"},"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"5%","right":"5%"}},"typography":{"lineHeight":"1"},"layout":{"selfStretch":"fill","flexSize":null}},"backgroundColor":"accent-4","fontSize":"small"} /--></div>
+<!-- /wp:group -->
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"25%"} -->
@@ -16,31 +20,29 @@
 <!-- /wp:social-links -->
 
 <!-- wp:navigation {"ref":4291,"style":{"spacing":{"blockGap":"0px"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical"}} /--></div>
-<!-- /wp:group -->
-
-<!-- wp:search {"label":"Search","showLabel":false,"width":264,"widthUnit":"px","buttonText":"Search","buttonPosition":"button-inside","align":"left","style":{"border":{"radius":"4px"},"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"0","right":"0"}}},"fontSize":"small"} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"36.33%","fontSize":"medium"} -->
-<div class="wp-block-column has-medium-font-size" style="flex-basis:36.33%"><!-- wp:heading {"level":4} -->
+<div class="wp-block-column has-medium-font-size" style="flex-basis:36.33%"><!-- wp:archives {"displayAsDropdown":true,"fontSize":"medium"} /-->
+
+<!-- wp:heading {"level":4} -->
 <h4 class="wp-block-heading">Looking back</h4>
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[bw_otd post_type=post,event]
-<!-- /wp:shortcode -->
-
-<!-- wp:archives {"displayAsDropdown":true,"fontSize":"medium"} /--></div>
+[bw_otd post_type=post,event,oik-recording]
+<!-- /wp:shortcode --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"35.33%"} -->
-<div class="wp-block-column" style="flex-basis:35.33%"><!-- wp:heading {"level":4} -->
+<div class="wp-block-column" style="flex-basis:35.33%"><!-- wp:categories {"displayAsDropdown":true,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"medium"} /-->
+
+<!-- wp:heading {"level":4} -->
 <h4 class="wp-block-heading">Recent Posts</h4>
 <!-- /wp:heading -->
 
-<!-- wp:latest-posts {"style":{"typography":{"textDecoration":"none","fontStyle":"normal","fontWeight":"300"}},"fontSize":"medium"} /-->
-
-<!-- wp:categories {"displayAsDropdown":true,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"medium"} /--></div>
+<!-- wp:latest-posts {"style":{"typography":{"textDecoration":"none","fontStyle":"normal","fontWeight":"300"}},"fontSize":"medium"} /--></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
@@ -48,7 +50,7 @@
 <div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull"><!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">© Copyright Official Caravan 2010-2025. All rights reserved.</p>
 <!-- /wp:paragraph --></div>
