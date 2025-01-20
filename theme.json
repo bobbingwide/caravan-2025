@@ -4,6 +4,21 @@
 			"contentSize": "1000px"
 		}
 	},
+	"styles": {
+		"css": "table.bw_table { font-size: 16px; text-align: left; padding-left: 1%; }\ntr:hover { border: 1px solid grey; background: yellow; }",
+		"elements": {
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--accent-4)"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--accent-3)"
+				}
+			}
+		}
+	},
 	"version": 3,
 	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
 }
