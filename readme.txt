@@ -13,6 +13,11 @@ Official Caravan theme for 2025 and beyond.
 
 
 == Changelog ==
+= 0.1.1 = 
+* 6ffc3ad (HEAD -> main) archive template: move date below post title #1
+* 6890933 Improve tracklist display on frontend and in the site editor #3
+* 5fe0a22 Add Instagram social link, set navigation overlayMenu to never #1
+
 
 = 0.1.0 =
 
