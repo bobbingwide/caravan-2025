@@ -14,13 +14,15 @@ Official Caravan theme for 2025 and beyond.
 
 == Changelog ==
 = 0.1.1 = 
+* 0be0f6a (HEAD -> main) Single event: Add the ticket link #7
+* 0e01767 Increase padding and block spacing #1
+* 835d915 Update bw_otd to show -50 year as well #1
+* 8826360 caravan-2025 v0.1.1 2025/01/21
 * 6ffc3ad (HEAD -> main) archive template: move date below post title #1
 * 6890933 Improve tracklist display on frontend and in the site editor #3
 * 5fe0a22 Add Instagram social link, set navigation overlayMenu to never #1
 
-
 = 0.1.0 =
-
 * 36b88d1 (HEAD -> main) theme.json: custom CSS for tables and link colours #1
 * 1539e87 single temlate: set featured image aspect to auto, add post date #1
 * f443793 single-oik-track: Add Original and Other versions fields  #2
@@ -51,7 +53,6 @@ Official Caravan theme for 2025 and beyond.
 * 22d2ef7 Set contentSite to 1000px #1
 * 7fcb321 Child theme created by create-block-theme
 * 2f0933b Initial commit
-
 
 == Copyright ==
 
